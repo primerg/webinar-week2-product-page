@@ -1,0 +1,219 @@
+a {
+    color: #444;
+}
+
+a:hover {
+    color: #f7505a;
+}
+
+nav {
+    background-color:black;
+    padding: 0px;
+}
+
+nav ul {
+	margin-bottom: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    padding:5px; 
+    overflow: hidden;
+
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+header {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   RIGHT SIDE
+   ========================================================================== */
+
+
+#right-side .title {
+    border-bottom: 2px solid #767676;
+    color: #767676;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+
+/* ==========================================================================
+   PRODUCT LIST
+   ========================================================================== */
+.single-product {
+    margin-bottom: 10px;
+
+}
+
+.single-product .product-img {
+    position: relative;
+}
+
+.single-product .product-img img {
+    width: 100%;
+}
+
+.single-product .product-img .action-button-area {
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.5s ease-out 0s;
+    width: 100%;
+    z-index: 12;
+}
+.single-product .product-img:hover .action-button-area {
+    display: block;
+    opacity: 1;
+}
+
+.single-product .product-img:hover img {
+    opacity: .3;
+}
+
+.single-product .product-img .action-button-area .action-button {
+    margin-top: 70%;
+}
+
+.product-name a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.action-button a {
+    border: 2px solid #666;
+    color: #666;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 36px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out 0s;
+    width: 40px;
+}
+
+.action-button a.cart-button {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+}
+
+
+.price-box .old-price {
+    font-size: 80%;
+    color: #aaa;
+}
+
+.price-box .special-price {
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   PRODUCT PAGE
+   ========================================================================== */
+.product-view {
+    margin: 20px 0;
+}
+.product-img-box img {
+    width: 100%;
+}
+
+.product-img-box .more-views {
+    float: left; width: 20%; border: 1px solid #ccc; margin-bottom: 10px;
+}
+
+.product-img-box .more-views h2 {
+    display: none;
+}
+
+.product-img-box .more-views ul {
+    margin: 0; padding: 0;
+}
+
+.product-img-box .product-image {
+    float: right; width: 80%
+}
+
+.product-view h1 {
+    text-transform: uppercase;
+}
+
+.price-box {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.product-shop .price-box .price {
+    color: #e95668;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-view .availability {
+  float: right;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.product-view .availability span {
+  color: #f7505a;
+}
+
+.product-view .full-description {
+    
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.product-view .full-description h2 {
+  color: #f7505a;
+  border-bottom: 2px solid #767676;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
